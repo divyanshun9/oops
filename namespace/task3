@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+namespace sum1
+{
+int sum(int a,int b)
+{
+   return (a+b);
+   
+   }
+   }
+   
+namespace sum2
+{
+float sum(float a,float b)
+{
+ return(a+b);
+ }
+ }
+ using namespace sum1;
+ using namespace sum2;
+ 
+ int main() 
+ {
+ int a,b,i;
+ float x,y,j;
+ 
+ 
+ i=sum(3,3.57f);
+ j=sum(6 98);
+ cout<<i<<endl;
+ cout<<j<<endl;
+ }
