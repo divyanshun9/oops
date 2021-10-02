@@ -1,0 +1,4 @@
+the code represents output when the header file <iostream> is presented as <iostream.h>
+
+the output gives out error as no such file or directory, this is because "iostream.h" is deprecated and not a
+standard header file.
