@@ -1,0 +1,8 @@
+Dimond Problem Occurs due to multiple inheritance. 
+             A
+           /   \ 
+          B     C 
+          \     / 
+             D       While making object of D,compiler gives memory to B and C which in turn gives memory to 
+                     A(one by B And one By C), and hence Compiler gets Confused As to which memory We are referring 
+                     and hence it throws ambiguity error.
